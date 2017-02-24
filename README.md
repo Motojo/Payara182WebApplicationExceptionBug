@@ -15,6 +15,7 @@ The project builds with Gradle, you can run on the command line: _gradlew build_
 If you want to deploy it directly to your web server (glassfish/payara) you need to
 
 *   Create a file on your application root named _gradle.properties_
-*   Create a property named 'serverHome' where your server is installed. for example: **_serverHome = C:\\\\developer\\\\payara41_**
+*   Create a property named 'serverHome' where your server is installed. for example:
+    **_serverHome = C:\\\\developer\\\\payara41_**
 
 Now you can use a task named **deploy** _(gradlew deploy)_ to deploy your application, just make sure your server is up!
