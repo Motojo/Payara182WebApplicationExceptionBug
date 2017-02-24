@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    REST Web Services with JavaEE 7 Using
+    <ul>
+        <li>Java 8</li>
+        <li>Jersey</li>
+        <li>JTA/JPA (Eclipselink)</li>
+        <li>EJB3.1</li>
+        <li>CDI</li>
+        <li>Jackson (for JSON Processing)</li>
+        <li>Project Lombok</li>
+    </ul>
+    Well tested to run on Glassfish/Payara Server
+
+    <p>
+        The project builds with Gradle, you can run on the command line: <i>gradlew build</i> and it will generate a war in /build/libs.
+    </p>
+    <p>
+        If you want to deploy it directly to your web server (glassfihs/payara) you need to create a file on your application root named <i>gradle.properties</i> then create a property named 'serverHome' where your server is installed. for example: <i>C:\\developer\\payara41</i>
+        <br>
+        Now you can use a task named "deploy" <i>(gradlew deploy)</i> to deploy your application, just make sure your server is up!
+    </p>
+</body>
+</html>
