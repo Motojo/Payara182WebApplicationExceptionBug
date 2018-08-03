@@ -57,7 +57,7 @@ WebApplication Exceptions are swallowed (may be by `fish.payara.microprofile.ope
 
 ## Context 
 
-WebApplication Exceptions are used to tell to the client what happened in a controlled way, with those Exceptions muted, wee need to refactor many huge projects to a new error management proccess.
+WebApplication Exceptions are used to tell to the client what happened in a controlled way, with those Exceptions muted, we need to refactor many huge projects to a new error management proccess.
 
 ## Environment ##
 
