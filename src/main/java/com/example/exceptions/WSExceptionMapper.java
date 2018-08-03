@@ -1,4 +1,4 @@
-package com.example.common.exceptions.ws;
+package com.example.exceptions;
 
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;

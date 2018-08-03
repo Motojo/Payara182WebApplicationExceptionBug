@@ -1,7 +1,7 @@
-package com.example.common.config.json;
+package com.example.utils;
 
-import com.example.common.exceptions.ws.WSException;
-import com.example.common.utils.WSResponse;
+
+import com.example.exceptions.WSException;
 
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.MediaType;
