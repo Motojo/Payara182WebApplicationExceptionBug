@@ -32,7 +32,6 @@ public class JsonWrapper implements WriterInterceptor
                 WSException ex = (WSException)entity;
                 response.setSuccess(false);
                 response.setMessage(ex.getMessage());
-                response.setData(ex.getErrors());
             }
             else
             {
