@@ -1,6 +1,6 @@
 package com.example;
 
-import com.example.exceptions.ws.WSException;
+import com.example.exceptions.WSException;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
